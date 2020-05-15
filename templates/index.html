@@ -7,5 +7,44 @@
 	<a href="{{ url_for('home') }}"><button>Home</button></a>
 	<a href="{{ url_for('blogs') }}"><button>Blogs</button></a>
 	<h1 style="color: blue;">My Home Page</h1>
+
+	<h>API ENDPOINT</h>
+	<table border="2">
+		<tbody>
+			<tr>
+				<td>
+				API Category                
+				</td>
+				<td>
+				URL (Example)                                              
+				</td>
+			</tr>
+			<tr>
+				<td>
+				WORD MEANING    
+				</td>
+				<td>
+					127.0.0.1:5000/api/v1/resources/meaning?word=rain  
+				</td>
+			</tr>
+			<tr>
+				<td>
+				CHECK PRIME     
+				</td>
+				<td>
+				127.0.0.1:5000/api/v1/checkprime?num=7             
+				</td>
+			</tr>
+			<tr>
+				<td>
+				LCM(TWO NUMBERS)
+				</td>
+				<td>
+				127.0.0.1:5000/api/v1/resources/lcm?num1=10&amp;num2=15
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p>The IP and PORT will change as per your modifications. Assumption made here is that the application is running on localhost with port number 5000</p>
 </body>
 </html>
